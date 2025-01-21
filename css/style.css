@@ -30,6 +30,7 @@ body{
     min-height: 100vh;
     font-family: 'Outfit', sans-serif, 'Young Serif', serif;
     background-color: var(--Stone-100);
+    margin: 100px;
 }
 
 .recipe-container {
@@ -156,19 +157,29 @@ li::marker{
 .nutrition-table {
     
     width: 100%;
-    border-collapse: collapse;
+    
     margin-top: 10px;
-
+    margin-bottom: 40px;
 }
+
+
 
 .nutrition-table th,
 .nutrition-table td {
-    border: 1px solid #ddd;
-    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    padding: 12px;
     text-align: left;
+
 }
 
 .nutrition-table th {
-    background: #f4f4f4;
-    font-weight: bold;
+    padding-left: 40px;
+    font-weight: 400;
+    color: var(--Stone-600);
 }
+.nutrition-table td {
+    padding-left: 40px;
+    font-weight: bold;
+    color: var(--Brown-800);
+}
+
